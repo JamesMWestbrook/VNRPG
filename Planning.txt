@@ -1,0 +1,40 @@
+Data
+-Party: list of actors currently in battle
+All actors in battle
+
+
+Stats
+HP
+MP
+DEF
+MAG
+Cur
+Ter
+Pyr
+Cry
+Sol
+Lun
+
+BattleManager
+GameManager
+-GameData from Data
+
+Save
+*Function to save/load data contained in GameData from GameManager
+
+EquipBase
+Types
+-Body
+-Acc
+-Ear
+-Glove
+ect
+has Extensions to return if it's X type
+
+CharacterBase
+-Stats Max Min
+
+Actors
+-CharacterBase of each character with predefined stats equipment and skills
+
+

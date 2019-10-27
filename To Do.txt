@@ -1,0 +1,7 @@
+New Game
+--Create new base party via cloning
+
+Load Game
+--Clone save data onto currently loaded data
+
+Return to title screen
