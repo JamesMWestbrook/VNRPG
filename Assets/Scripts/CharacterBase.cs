@@ -8,11 +8,17 @@ using System.Runtime.Serialization.Formatters.Binary;
 public class CharacterBase
 {
     public string Name = "Empty";
+    public string NickName = "EmptyNN";
     public int Lvl = 1;
 
 
     public CharStats MaxStats;
     public CharStats CurStats;
+
+    public string FaceGUI;
+    public string SpriteGUI;
+
+
     public List<string> testString = new List<string>
     {
         "Attack",
